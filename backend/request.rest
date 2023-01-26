@@ -1,0 +1,16 @@
+GET http://localhost:6000/api/todos
+
+###
+
+POST http://localhost:6000/api/todo/new
+Content-Type: application/json
+
+{
+    "title": "testing"
+}
+
+###
+DELETE http://localhost:6000/api/todo/delete/63d2733fe3466d1328528246
+
+###
+GET http://localhost:6000/api/todo/toggleStatus/63d276cf19c6d4dd3e9cb1c9
